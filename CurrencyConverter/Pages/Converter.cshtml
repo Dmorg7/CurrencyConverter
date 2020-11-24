@@ -1,0 +1,22 @@
+﻿@page
+@model ConverterModel
+@{
+    ViewData["Title"] = "HelloWorld";
+}
+
+<h2>Currency Converter</h2>
+
+<h3>The time on the server is @DateTime.Now</h3>
+
+<p>
+    The Current Exchange rate is 1 Pound = @this.Model.euroRate Euro
+</p>
+
+<div asp-validation-summary="All"></div>
+
+<form method="post">
+    <div>Enter your amount in pounds: <input pattern="([0-9]+(\.[0-9][0-9]?)?)|([0-9])" asp-for="input" /></div>
+    <input type="submit" />
+</form>
+
+<p id="result">@this.Model.euro</p>

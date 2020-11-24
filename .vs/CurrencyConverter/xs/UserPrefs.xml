@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{CD409E4A-295F-4648-98CE-576A9B4741A7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CurrencyConverter/Pages/Converter.cshtml">
+    <Files>
+      <File FileName="CurrencyConverter/Pages/Converter.cshtml" Line="9" Column="27" />
+      <File FileName="CurrencyConverter/Pages/Converter.cshtml.cs" Line="32" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CurrencyConverter PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
